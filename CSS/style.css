@@ -1,0 +1,608 @@
+.container{ 
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: #ffffff;
+}
+
+.text-black{
+    color: #000000;
+    font-weight: bold;    
+    font-size: 20px;
+}
+.text-red{
+    color: #ff0000;
+    font-weight: bold;    
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:#1a1412;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.btn-action{
+    background-color: #1a1412;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-action:hover{
+    background-color: olivedrab;
+}
+
+h2{
+    color:#1a1412;
+    font-size: 30px;;
+    
+}
+
+.float-img{
+    position: relative;    
+}
+
+.float-text{
+    position: absolute;
+    bottom: 95%;
+    left: 40%;
+}
+
+
+.bg{
+    background-color: #8fff00
+    ;
+}
+
+h1{
+    color: #1a1412;
+    font-size: 30px;
+}
+/* Navbar */
+
+
+.logo{
+    width: 17%;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+    float: none;        
+}
+.decor{
+    background-color:#1a1412;
+    font-size: 50px;
+    color: #BFFF00;
+}
+
+.decor1{
+    background: color #1a1412;
+    font-size: 50px;
+    color: #8fff00;
+}
+.Menu{
+    line-height: 130px;
+}
+
+.Menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.Menu ul li{
+    
+    display: inline;
+    padding: 4%;
+    font-weight:bold;
+    font-size: 25px;
+}
+
+.Menu ul li a{
+    
+    color: #2C5F2DFF;;
+    text-decoration: none;
+}
+
+.Menu ul li a:hover{
+    background-color:rgb(100, 136, 33);
+    color: #1a1412;
+    transform: translateY(-5px);
+    border-radius: 25px;
+    padding: 2%;
+}
+
+/* Food search */
+
+.Grocery-Search{
+    background-image: url(../Images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.Grocery-Search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+/* Categories*/
+
+.Categories{
+    padding: 4% 0;
+}
+
+
+.Box{
+    width: 28%;
+    float: left;
+    margin: 2%;
+    padding: 2% 0 0 0;
+}
+
+
+.Box:hover
+{
+    transform: translateY(-5px);
+}
+
+
+
+/* Grocery Menu */
+
+
+.GroceryMenu{
+    background-color: #1a1412;
+    padding: 2% 0;
+   }
+   
+.Grocery-Menu-box{
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.btn-Grocery{
+    background-color: #1a1412;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-Grocery:hover{
+    background-color: #BFFF00;
+}
+
+.Grocery-Menu-img{
+    width: 25%;
+    float: left;
+
+}
+
+.img-Grocery{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.Grocery-Menu-info{
+    width: 70%;
+    float: left;
+    margin-left: 5%;
+}
+
+.Grocery-price{
+    font-size: 25px;
+}
+
+
+
+
+/* SOCIAL */
+
+.Social ul{
+    list-style-type: none;
+}
+
+.Social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/*order */
+.GOrder{
+    background-image: url(../Images/order-bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+
+fieldset{
+    border: 1px solid black;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+
+.design{
+    background-image: url(../Images/poster.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.testimonial {
+    padding: 30px 100px;
+    
+}
+
+article h1 {
+    font-family: fantasy;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 45%;
+    font-weight: bolder;
+    
+}
+
+article img {
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-left: 44%;
+}
+
+blockquote {
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-weight: bolder;
+    
+}
+
+article h5 {
+    font-size: 22px;
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+    margin-left: 46.5%;
+    
+}
+
+article p {
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 40%;
+}
+
+/* contactus */
+.design{
+    background-image: url(../Images/bg2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+header{
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 4rem;
+}
+
+header h1{
+    font-family: fantasy;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+}
+
+header p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight:900;
+    color: #000000;
+}
+
+.content {
+    display: flex;
+    min-height: 100vh;
+}
+
+    .content section {
+        margin-top: 8vh;
+        margin-left: 20vh;
+    }
+
+.content-form {
+    margin-top: 10rem;
+}
+
+.form {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+    .form .contact-form input {
+        width: 25rem;
+        background-color: transparent;
+        border: 0px;
+        border: transparent;
+        margin: 20px;
+        padding: 10px;
+        font-size: 18px;
+        border-bottom: 2px solid #000000;
+    }
+
+        .form .contact-form input ~ span {
+            position: absolute;
+            left: 20px;
+            transition: 0.9s ease-in-out;
+            margin-top: 8px;
+        }
+
+        .form .contact-form input:focus ~ span {
+            transform: translateY(-20px);
+            pointer-events: none;
+        }
+
+    .form .contact-form textarea {
+        width: 25rem;
+        border: 0px;
+        background-color: transparent;
+        margin: 20px;
+        font-size: 17px;
+        border-bottom: 2px solid #000000;
+    }
+
+        .form .contact-form textarea ~ span {
+            position: absolute;
+            left: 20px;
+            margin-top: 10px;
+            transition: 0.9s ease-in-out;
+        }
+
+        .form .contact-form textarea:focus ~ span {
+            transform: translateY(-20px);
+            pointer-events: none;
+        }
+
+    .form .contact-form input[type=submit] {
+        background-color: #ffffff;
+        border: 2px solid #8fff00;
+        font-size: 18px;
+        width: 50%;
+        height: 40px;
+        margin-top: -5px;
+    }
+
+        .form .contact-form input[type=submit]:hover {
+            background-color: #000000;
+            color: #8fff00;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*LOGIN*/
+.Login{
+    height:  100%;
+    width:  100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../Images/poster.jpg);
+    background-position:center ;
+    background-size: cover;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+} 
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #0000001f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,  #BFFF00 , #f5f5f5);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.Social-icons{
+    margin: 30px auto;
+    text-align:center;
+}
+.Social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition:.5s; 
+}
+.input-field{
+    width:100%;
+    padding:10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+   width:85%;
+   padding: 10px 30px;
+   cursor: pointer;
+   display: block;
+   margin: auto;
+   background:linear-gradient(to right, #BFFF00  , #f5f5f5);
+   border: 0;
+   outline: none;
+   border-radius: 30px;
+
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 64px;
+    position: absolute;
+    
+}
+#Login{
+    left: 50px;
+    
+}
+#Register{
+    left: 450px;
+
+}
